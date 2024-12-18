@@ -4,3 +4,4 @@ pandas
 scikit-learn
 keras
 matplotlib
+tensorflow==2.12.0

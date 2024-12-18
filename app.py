@@ -1,12 +1,10 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-from keras.models import load_model
 import pickle
 from sklearn.preprocessing import MinMaxScaler
 import matplotlib.pyplot as plt
 
-model = load_model('C:\STOCK_MARKET\Stock Predictions Model.keras')
 
 # Load the trained LSTM model and scaler
 with open('lstm_model.pkl', 'rb') as model_file:
